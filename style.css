@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+  border: solid;
+}
+
+header {
+  background-color: #75e2e6;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid;
+  border-color: #048eaa;
+  border-width: 2px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: normal;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: #048eaa;
+  background-size: cover;
+  color: #ffffff;
+  background-image: url(assets/park.jpg);
+}
+
+.hero h1 {
+  font-size: 2.5em;
+}
+
+.hero img {
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  margin-bottom: 20px;
+  border: solid;
+  border-color: #048eaa;
+  border-width: 4px;
+}
+
+.hero form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background-color: #75e2e6;
+  border: none;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 20px;
+  background-color: #f0f0f0;
+}
+
+.dog-info {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.dog-info img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+  border: solid;
+  border-color: #048eaa;
+  border-width: 4px;
+}
+
+.dog-info h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.dog-info p {
+  font-size: 1em;
+  margin: 10px 0;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.dog-info button {
+  padding: 10px 20px;
+  background-color: #048eaa;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  width: 100%
+}
+
+footer {
+  display: flex;
+  background-color: #048eaa;
+  align-items: center;
+  padding: 50px;
+  justify-content: center;
+}
+
+footer h1 {
+  color: #ffffff;
+  font-size: medium;
+}
+
+footer img.footerLogo {
+  display: flex;
+  margin: 10px;
+}
